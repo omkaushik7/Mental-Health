@@ -304,8 +304,8 @@ a{
     #spotify , #podstack , #youtube , #medium{
         padding: 24px 0;
         color: #F37F61;
-        float: right;
-        display:block;
+        display:flex;
+        justify-content: center;
     }
     .podcast , .music , .blog , .video{
         margin: auto;
