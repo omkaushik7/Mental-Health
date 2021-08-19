@@ -314,6 +314,9 @@ a{
         margin: 100px auto 0;
         padding:35px
     }
+    .music-duration{
+        margin: -45px 0px 0 220px;
+    }
     .flex{
         gap: 0;
         }
