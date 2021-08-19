@@ -33,7 +33,7 @@ a{
 .hero{
     display: flex;
     justify-content: center;
-    max-width: 90%;
+    max-width: 80%;
     margin: 40px auto;
 }
 .description3{
@@ -103,7 +103,11 @@ a{
     width: 33px;
 }
 /* //////////////////////////////////////////////// */
-
+.bg-1{
+    background-image: url(/Mental-Health/Vector.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
 .music-section{
     margin: 71px 98px;
 }
@@ -162,6 +166,12 @@ a{
 }
 /* ///////////////////////////////////////////////////////// */
 
+.bg-2{
+    background-image: url(/Mental-Health/Vector2.png);
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y: center;
+}
 .blog-section{
     margin: 71px 98px;
 }
@@ -284,6 +294,7 @@ a{
 @media (max-width:900px){
     body{
         background-size: 180px 616px,117px 375px;
+        /* background-size: 118px 503px,102px 375px; */
     }
 }
 @media (max-width:590px){
@@ -296,4 +307,14 @@ a{
         float: right;
         display:block;
     }
+    .podcast , .music , .blog , .video{
+        margin: auto;
+    }
+    .podcast-section, .music-section, .blog-section, .video-section{
+        margin: 100px auto 0;
+        padding:35px
+    }
+    .flex{
+        gap: 0;
+        }
 }
