@@ -165,6 +165,7 @@ a{
     width: 294px;
     font-size: 24px;
     color: black;
+    padding-left: 9px;
 }
 .music-bottom{
     display: flex;
@@ -175,6 +176,7 @@ a{
 .collection{
     font-size: 22px;
     color: #616161;
+    padding-left: 9px;
 }
 /* ///////////////////////////////////////////////////////// */
 
