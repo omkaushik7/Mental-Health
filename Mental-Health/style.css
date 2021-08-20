@@ -10,6 +10,9 @@ body{
     background-position-x: 0 ,right;
     background-position-y: 0,100px;
 }
+.img{
+    display: none;
+}
 a{
     text-decoration: none;
     color: #616161;
@@ -22,13 +25,16 @@ a{
 .description1{
     text-align: center;
     margin: 20px auto 0;
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: bolder;
+    padding: 0 35px;
+    line-height: 58px;
 }
 .description2{
     text-align: center;
     margin: 26px 0 0 0;
     color: #616161;
+    padding: 0 57px;
 }
 .hero{
     display: flex;
@@ -40,6 +46,7 @@ a{
     text-align: center;
     margin: 5px 0 0 0;
     color: #616161;
+    padding: 0 35px;
 }
 .podcast-section{
     margin: 100px 98px 0;
@@ -297,16 +304,27 @@ a{
 
 @media (max-width:900px){
     body{
+        background-image: url(/Mental-Health/Group\ 2.png);
         background-size: 180px 616px,117px 375px;
         /* background-size: 118px 503px,102px 375px; */
     }
+    .img{
+        position: absolute;
+        left: -90px;
+        top: -69px;
+    }
 }
 @media (max-width:590px){
+    .description1 {
+        font-size: 2.8rem;
+        font-weight: bolder;
+        padding: 0 35px;
+    }
     .spotify , .podstack , .youtube , .medium{
         display: none;
     }
     #spotify , #podstack , #youtube , #medium{
-        padding: 24px 0;
+        padding: 90px 0 0 0;
         color: #F37F61;
         display:flex;
         justify-content: center;
@@ -318,10 +336,11 @@ a{
         margin: -45px 0px 0 220px;
     }
     .podcast-section, .music-section, .blog-section, .video-section{
-        margin: 100px auto 0;
+        margin: 0px auto 0;
         padding:35px
     }
     .flex{
         gap: 0;
-        }
+    }
+
 }
