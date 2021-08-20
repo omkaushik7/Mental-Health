@@ -66,6 +66,7 @@ a{
 .podcast-content{
     width: 332px;
     border: 1px solid #fff;
+    background: #fff;
     margin: 41px 0 0 0;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
@@ -129,6 +130,7 @@ a{
     width: 332px;
     /* height: 248px; */
     border: 1px solid #fff;
+    background: #fff;
     margin: 41px 0 0 0;
     border-radius: 18px;
 }
@@ -190,6 +192,7 @@ a{
     width: 332px;
     /* height: 248px; */
     border: 1px solid #fff;
+    background: #fff;
     margin: 41px 0 0 0;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
@@ -233,6 +236,7 @@ a{
     width: 332px;
     /* height: 248px; */
     border: 1px solid #fff;
+    background: #fff;
     margin: 41px 0 0 0;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
@@ -310,12 +314,12 @@ a{
     .podcast , .music , .blog , .video{
         margin: auto;
     }
+    .music-duration{
+        margin: -45px 0px 0 220px;
+    }
     .podcast-section, .music-section, .blog-section, .video-section{
         margin: 100px auto 0;
         padding:35px
-    }
-    .music-duration{
-        margin: -45px 0px 0 220px;
     }
     .flex{
         gap: 0;
