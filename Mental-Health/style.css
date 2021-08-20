@@ -161,6 +161,7 @@ a{
 .music-title{
     margin: 26px 0 9px 0;
     width: 294px;
+    color:black;
     font-size: 24px;
 }
 .music-bottom{
