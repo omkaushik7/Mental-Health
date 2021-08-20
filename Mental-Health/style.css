@@ -161,8 +161,8 @@ a{
 .music-title{
     margin: 26px 0 9px 0;
     width: 294px;
-    color:black;
     font-size: 24px;
+    color: black;
 }
 .music-bottom{
     display: flex;
@@ -177,10 +177,11 @@ a{
 /* ///////////////////////////////////////////////////////// */
 
 .bg-2{
-    background-image: url(/Mental-Health/Vector2.png);
+    background-image: url(/Mental-Health/Vector2.png),url(/Mental-Health/Vector3.png);
     background-repeat: no-repeat;
-    background-position-x:right;
-    background-position-y: center;
+    background-position-x: right,left;
+    background-position-y: center,900px;
+
 }
 .blog-section{
     margin: 71px 98px;
