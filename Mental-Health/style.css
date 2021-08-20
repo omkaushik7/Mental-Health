@@ -304,14 +304,7 @@ a{
 
 @media (max-width:900px){
     body{
-        background-image: url(/Mental-Health/Group\ 2.png);
         background-size: 180px 616px,117px 375px;
-        /* background-size: 118px 503px,102px 375px; */
-    }
-    .img{
-        position: absolute;
-        left: -90px;
-        top: -69px;
     }
 }
 @media (max-width:590px){
