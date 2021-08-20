@@ -17,6 +17,12 @@ a{
     text-decoration: none;
     color: #616161;
 }
+.spotify a, .podstack a, .youtube a, .medium a{
+    color: #F37F61;
+}
+#spotify a, #podstack a, #youtube a, #medium a{
+    color: #F37F61;
+}
 .name{
     text-align: center;
     margin: 30px 0 0 0;
@@ -57,9 +63,6 @@ a{
 }
 .podstack{
     padding: 24px 0;
-}
-.podstack a{
-    color: #F37F61;
 }
 .podcast{
     font-size: 48px;
@@ -136,17 +139,14 @@ a{
 .music-content{
     width: 332px;
     /* height: 248px; */
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     background: #fff;
     margin: 41px 0 0 0;
     border-radius: 18px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
 }
 .music-duration{
     position: absolute;
-    /* width: 70px;
-    height: 30px; */
-    /* left: 350px; */
-    /* top: 1633px; */
     background: rgba(164, 161, 161, 0.72);
     backdrop-filter: blur(5px);
     border-radius: 7px;
@@ -156,7 +156,7 @@ a{
 .music-top{
     width: 100%;
     height: 186px;
-    border-radius: 16px;    
+    border-radius: 16px 16px 0 0;    
 }
 .music-title{
     margin: 26px 0 9px 0;
@@ -167,7 +167,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 9px 0 0 0;
+    padding: 9px 0;
 }
 .collection{
     font-size: 22px;
