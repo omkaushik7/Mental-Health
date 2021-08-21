@@ -49,7 +49,8 @@ a{
     padding: 0 35px;
 }
 .podcast-section{
-    margin: 100px 98px 0;
+    margin: 100px auto 0;
+    width: max-content;
 }
 .podcast-header{
     display: flex;
@@ -116,6 +117,7 @@ a{
 }
 .music-section{
     margin: 71px 98px;
+    width: max-content;
 }
 .music-header{
     display: flex;
@@ -185,6 +187,7 @@ a{
 }
 .blog-section{
     margin: 71px 98px;
+    width: max-content;
 }
 .blog-header{
     display: flex;
@@ -231,7 +234,8 @@ a{
 }
 /* ///////////////////////////////////////////////// */
 .video-section{
-    margin: 71px 98px;
+    margin: 71px auto;
+    width: max-content;
 }
 .video-header{
     display: flex;
@@ -347,10 +351,4 @@ a{
         gap: 0;
     }
 
-}
-@media screen and (min-width:1280px){
-    html{
-        width: 1280px;
-        margin: 0 auto;
-    }
 }
