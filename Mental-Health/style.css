@@ -27,7 +27,7 @@ a{
     margin: 20px auto 0;
     font-size: 2.8rem;
     font-weight: bolder;
-    padding: 0 35px;
+    padding: 0 100px;
     line-height: 58px;
 }
 .description2{
@@ -57,6 +57,7 @@ a{
 }
 .podstack{
     padding: 24px 0;
+    font-weight: bold;
 }
 .podcast{
     font-size: 48px;
@@ -123,6 +124,7 @@ a{
 .spotify{
     padding: 24px 0;
     color: #F37F61;
+    font-weight: bold;
 }
 #spotify ,#podstack , #youtube , #medium{
     display: none;
@@ -159,18 +161,18 @@ a{
     width: 294px;
     font-size: 24px;
     color: black;
-    padding-left: 9px;
+    padding: 0 15px;
+    font-weight: bold;
 }
 .music-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 9px 0;
+    padding: 0 15px;
 }
 .collection{
     font-size: 22px;
     color: #616161;
-    padding-left: 9px;
 }
 /* ///////////////////////////////////////////////////////// */
 
@@ -191,6 +193,7 @@ a{
 .medium{
     padding: 24px 0;
     color: #F37F61;
+    font-weight: bold;
 }
 .blog{
     font-size: 48px;
@@ -218,6 +221,7 @@ a{
     width: 294px;
     font-size: 24px;
     color: black;
+    font-weight: bold;
 }
 .blog-description{
     margin: 21px 16px;
@@ -236,6 +240,7 @@ a{
 .youtube{
     padding: 24px 0;
     color: #F37F61;
+    font-weight: bold;
 }
 .video{
     font-size: 48px;
@@ -265,6 +270,7 @@ a{
     margin: 26px 0 0 16px;
     width: 294px;
     font-size: 24px;
+    font-weight: bold;
 }
 .video-description{
     margin: 21px 16px;
@@ -278,7 +284,7 @@ a{
   height: max-content;
   margin: 126px auto;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   gap: 33px;
   flex-wrap: wrap;
 }
@@ -294,6 +300,7 @@ a{
 }
 .fueler{
     text-align: center;
+    font-weight: bold;
     background: #FAEAE0;
     color: #A63E1B;
     width: max-content;
@@ -309,6 +316,9 @@ a{
     }
 }
 @media (max-width:590px){
+    body{
+        margin-top:50px;
+    }
     .description1 {
         font-size: 2.8rem;
         font-weight: bolder;
@@ -337,4 +347,10 @@ a{
         gap: 0;
     }
 
+}
+@media screen and (min-width:1280px){
+    body{
+        width: 1280px;
+        margin: 0 auto;
+    }
 }
