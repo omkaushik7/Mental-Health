@@ -338,6 +338,7 @@ a{
         display: none;
     }
     #spotify , #podstack , #youtube , #medium{
+        font-weight: bold;
         padding: 90px 0 0 0;
         color: #F37F61;
         display:flex;
