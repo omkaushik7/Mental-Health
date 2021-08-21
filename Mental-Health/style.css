@@ -348,9 +348,3 @@ a{
     }
 
 }
-@media screen and (min-width:1280px){
-    body{
-        width: 1280px;
-        margin: 0 auto;
-    }
-}
