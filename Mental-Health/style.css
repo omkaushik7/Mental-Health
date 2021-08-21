@@ -15,14 +15,14 @@ body{
 }
 a{
     text-decoration: none;
-    color: #616161;
+    color: #F37F61;
 }
-.spotify a, .podstack a, .youtube a, .medium a{
+/* .spotify a, .podstack a, .youtube a, .medium a{
     color: #F37F61;
 }
 #spotify a, #podstack a, #youtube a, #medium a{
     color: #F37F61;
-}
+} */
 .name{
     text-align: center;
     margin: 30px 0 0 0;
@@ -223,6 +223,7 @@ a{
     margin: 26px 0 0 16px;
     width: 294px;
     font-size: 24px;
+    color: black;
 }
 .blog-description{
     margin: 21px 16px;
