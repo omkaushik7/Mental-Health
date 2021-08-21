@@ -17,12 +17,6 @@ a{
     text-decoration: none;
     color: #F37F61;
 }
-/* .spotify a, .podstack a, .youtube a, .medium a{
-    color: #F37F61;
-}
-#spotify a, #podstack a, #youtube a, #medium a{
-    color: #F37F61;
-} */
 .name{
     text-align: center;
     margin: 30px 0 0 0;
@@ -284,7 +278,8 @@ a{
   height: max-content;
   margin: 126px auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 33px;
   flex-wrap: wrap;
 }
 .hire-me{
@@ -296,7 +291,6 @@ a{
     padding: 17px;
     box-shadow: 0px 15px 31px rgba(236, 118, 80, 0.34);
     border-radius: 13px;
-    margin-bottom: 40px;
 }
 .fueler{
     text-align: center;
