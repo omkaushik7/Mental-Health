@@ -347,9 +347,9 @@ a{
     .podcast , .music , .blog , .video{
         margin: auto;
     }
-    .music-duration{
+     /* .music-duration{
         margin: -45px 0px 0 220px;
-    }
+    } */
     .podcast-section, .music-section, .blog-section, .video-section{
         margin: 0px auto 0;
         padding:35px
