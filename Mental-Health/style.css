@@ -21,6 +21,7 @@ a{
     text-align: center;
     margin: 30px 0 0 0;
     font-weight: bolder;
+    font-size: 20px;
 }
 .description1{
     text-align: center;
@@ -48,6 +49,7 @@ a{
     color: #616161;
     padding: 0 35px;
 }
+/* /////////////////////////////podcast-section/////////////////////////////////////// */
 .podcast-section{
     margin: 100px 98px 0;
 }
@@ -68,12 +70,11 @@ a{
     flex-wrap: wrap;
     gap: 39px;
     justify-content: center;
+    margin: 41px 0 0 0;
 }
 .podcast-content{
     width: 332px;
-    border: 1px solid #fff;
     background: #fff;
-    margin: 41px 0 0 0;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
 }
@@ -91,12 +92,12 @@ a{
     /* height: 50px; */
     margin: 4px 44px 0 29px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }
 .podcast-description{
-    /* width: 201px; */
     margin: 21px 40px 0;
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: start;
     color: #616161;
 }
@@ -109,7 +110,7 @@ a{
 .width{
     width: 33px;
 }
-/* //////////////////////////////////////////////// */
+/* ///////////////////music-section///////////////////////////// */
 .bg-1{
     background-image: url(/Mental-Health/Vector.png);
     background-repeat: no-repeat;
@@ -136,10 +137,7 @@ a{
 }
 .music-content{
     width: 332px;
-    /* height: 248px; */
-    /* border: 1px solid #fff; */
     background: #fff;
-    margin: 41px 0 0 0;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
 }
@@ -147,7 +145,7 @@ a{
     width: max-content;
     position: absolute;
     background: rgba(164, 161, 161, 0.72);
-    color: black;
+    color:#ffff;
     backdrop-filter: blur(5px);
     border-radius: 7px;
     padding: 5px 15px;
@@ -172,16 +170,16 @@ a{
     padding: 0 15px 15px;
 }
 .collection{
-    font-size: 22px;
+    font-size: 16px;
     color: #616161;
 }
-/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////blog-section////////////////////////////////// */
 
 .bg-2{
     background-image: url(/Mental-Health/Vector2.png),url(/Mental-Health/Vector3.png);
     background-repeat: no-repeat;
     background-position-x: right,left;
-    background-position-y: center,900px;
+    background-position-y: center,870px;
 
 }
 .blog-section{
@@ -202,10 +200,7 @@ a{
 }
 .blog-content{
     width: 332px;
-    /* height: 248px; */
-    border: 1px solid #fff;
     background: #fff;
-    margin: 41px 0 0 0;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
 }
@@ -226,12 +221,14 @@ a{
     font-weight: bold;
 }
 .blog-description{
-    margin: 21px 16px;
-    font-size: 18px;
+    padding: 21px 16px;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: start;
     color: #616161;
 }
-/* ///////////////////////////////////////////////// */
+/* //////////////////////video-section/////////////////////////// */
+
 .video-section{
     margin: 71px 98px;
 }
@@ -250,10 +247,7 @@ a{
 }
 .video-content{
     width: 332px;
-    /* height: 248px; */
-    border: 1px solid #fff;
     background: #fff;
-    margin: 41px 0 0 0;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
 }
@@ -281,7 +275,8 @@ a{
     text-align: start;
     color: #616161;
 }
-/* ///////////////////////////////////////////////////// */
+/* ///////////////////////footer-section////////////////////////////// */
+
 .footer{
   /* width: 500px; */
   height: max-content;
@@ -291,7 +286,7 @@ a{
   gap: 33px;
   flex-wrap: wrap;
 }
-.hire-me{
+.fueler{
     text-align: center;
     background-color: #EC7650;
     color: #fff;
@@ -299,9 +294,9 @@ a{
     height: max-content;
     padding: 17px;
     box-shadow: 0px 15px 31px rgba(236, 118, 80, 0.34);
-    border-radius: 13px;
+    border-radius: 10px;
 }
-.fueler{
+/* .fueler{
     text-align: center;
     font-weight: bold;
     background: #FAEAE0;
@@ -311,7 +306,7 @@ a{
     padding: 17px;
     border-radius: 13px;
     box-shadow: 0px 15px 31px rgba(250, 234, 224, 0.58);
-}
+} */
 
 
 @media (max-width:900px){
@@ -347,15 +342,10 @@ a{
     .podcast , .music , .blog , .video{
         margin: auto;
     }
-     /* .music-duration{
-        margin: -45px 0px 0 220px;
-    } */
+   
     .podcast-section, .music-section, .blog-section, .video-section{
         margin: 0px auto 0;
         padding:35px
-    }
-    .flex{
-        gap: 0;
     }
 
 }
