@@ -318,6 +318,9 @@ a{
         justify-content: space-evenly;
         gap: 0;
     }
+    .bg-2{
+        background-position-y: 50%,108%;
+    }
 
 }
 @media (max-width:590px){
