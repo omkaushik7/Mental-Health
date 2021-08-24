@@ -280,7 +280,7 @@ a{
 .footer{
   /* width: 500px; */
   height: max-content;
-  margin: 126px auto;
+  margin: 126px auto 50px;
   display: flex;
   justify-content:center;
   gap: 33px;
