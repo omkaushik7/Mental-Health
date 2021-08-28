@@ -19,7 +19,7 @@ a{
 }
 .name{
     text-align: center;
-    margin: 30px 0 0 0;
+    margin: 70px 0 0 0;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -36,6 +36,7 @@ a{
     margin: 26px 0 0 0;
     color: #616161;
     padding: 0 57px;
+    line-height: 1.65;
 }
 .hero{
     display: flex;
@@ -48,6 +49,7 @@ a{
     margin: 5px 0 0 0;
     color: #616161;
     padding: 0 35px;
+    line-height: 1.65;
 }
 /* /////////////////////////////podcast-section/////////////////////////////////////// */
 .podcast-section{
@@ -157,17 +159,16 @@ a{
     border-radius: 16px;    
 }
 .music-title{
-    margin: 26px 0 9px 0;
+    padding: 20px 21px;
     font-size: 24px;
     color: black;
-    padding: 0 15px;
     font-weight: bold;
 }
 .music-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px 15px;
+    padding: 0 20px 15px;
 }
 .collection{
     font-size: 16px;
@@ -200,7 +201,7 @@ a{
 }
 .blog-content{
     width: 332px;
-    height: 340px;
+    height: 371px;
     background: #fff;
     border-radius: 18px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
@@ -212,7 +213,7 @@ a{
 .blog-img{
     width: 300px;
     display: flex;
-    margin: 16px;
+    padding: 16px;
 }
 .blog-title{
     margin: 26px 0 0 16px;
@@ -222,7 +223,7 @@ a{
     font-weight: bold;
 }
 .blog-description{
-    padding: 21px 16px;
+    padding: 21px 16px 0;
     font-size: 14px;
     line-height: 1.5;
     text-align: start;
@@ -297,17 +298,6 @@ a{
     box-shadow: 0px 15px 31px rgba(236, 118, 80, 0.34);
     border-radius: 10px;
 }
-/* .fueler{
-    text-align: center;
-    font-weight: bold;
-    background: #FAEAE0;
-    color: #A63E1B;
-    width: max-content;
-    height: max-content;
-    padding: 17px;
-    border-radius: 13px;
-    box-shadow: 0px 15px 31px rgba(250, 234, 224, 0.58);
-} */
 
 
 @media (max-width:900px){
@@ -329,9 +319,10 @@ a{
         margin-top:50px;
     }
     .description1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         font-weight: bolder;
         padding: 0 35px;
+        line-height: 54px;
     }
     .spotify , .podstack , .youtube , .medium{
         display: none;
@@ -346,9 +337,7 @@ a{
     .podcast , .music , .blog , .video{
         margin: auto;
     }
-    /* .music-duration{
-        margin: -45px 0px 0 220px;
-    } */
+    
     .podcast-section, .music-section, .blog-section, .video-section{
         margin: 0px auto 0;
         padding:35px
